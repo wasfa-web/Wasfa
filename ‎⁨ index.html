@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>وصفاتك العشوائية</title>
-    <link rel="stylesheet" href="app.css">
+    <!-- تعديل المسار ليعمل على GitHub Pages داخل مجلد Wasfa -->
+    <link rel="stylesheet" href="/Wasfa/app.css">
 </head>
 <body>
     <h1>🎉 وصفاتك العشوائية</h1>
+
     <section class="add-recipe">
         <h2>إضافة وصفة</h2>
         <input id="recipeName" placeholder="اسم الوصفة">
@@ -21,6 +23,7 @@
         </select>
         <button onclick="addRecipe()">إضافة</button>
     </section>
+
     <section class="filters">
         <h2>اختيار وصفة</h2>
         <label>التصنيف:</label>
@@ -35,10 +38,14 @@
         <input id="mustNotHave" placeholder="لا تحتوي على (اختياري)">
         <button onclick="getRandomRecipe()">أعطني وصفة عشوائية</button>
     </section>
+
     <section class="result">
         <h2>الوصفة المختارة:</h2>
         <p id="selectedRecipe">—</p>
     </section>
-    <script src="app.js"></script>
+
+    <!-- تعديل المسار ليعمل على GitHub Pages داخل مجلد Wasfa -->
+    <script src="/Wasfa/app.js"></script>
 </body>
 </html>
+
