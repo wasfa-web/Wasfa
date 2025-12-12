@@ -47,3 +47,4 @@ function getRandomRecipe() {
     document.getElementById("selectedRecipe").innerText =
         random.name + "\n\nالمكونات:\n" + random.ingredients.join(", ");
 }
+
